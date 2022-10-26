@@ -5,11 +5,9 @@ public class Problem3 {
         int answer = 0;
 
         return calc(number);
-
     }
 
     public static int calc(int num) {
-
         int result = 0;
 
         for (int i = 1; i <= num; i++){
@@ -18,8 +16,6 @@ public class Problem3 {
                     .filter(c -> c == '3' || c == '6' || c =='9')
                     .count();
         }
-
         return result;
     }
-
 }
