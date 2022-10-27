@@ -19,7 +19,7 @@ class Problem1 {
                 String temp = pobi.get(i).toString();
                 for (int j = 0; j < temp.length(); j++) {
                     pobiPlus += (temp.charAt(j) - '0');
-                    pobiMulti = pobiMulti * (temp.charAt(j) - '0');
+                    pobiMulti *= (temp.charAt(j) - '0');
 
                 }
                 if (pobiPlus > pobiMulti) {
